@@ -1,4 +1,4 @@
-﻿Log file open, 01/23/21 20:02:15
+﻿Log file open, 01/23/21 21:16:13
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BallMaze
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.567364
+LogStats: Stats thread started at 0.565961
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.136s to configure plugins.
+LogStreaming: Display: Took  0.138s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,283 +147,211 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2021.01.23-19.02.16:062][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.23-19.02.16:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.23-19.02.16:073][  0]LogHAL: Display: Platform has ~ 32 GB [34291347456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.23-19.02.16:073][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2021.01.23-19.02.16:073][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.23-19.02.16:074][  0]LogInit: Computer: DESKTOP-F3K469H
-[2021.01.23-19.02.16:074][  0]LogInit: User: ibahu
-[2021.01.23-19.02.16:074][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.01.23-19.02.16:074][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.23-19.02.16:074][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2021.01.23-19.02.16:074][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.23-19.02.16:074][  0]LogMemory: Process Physical Memory: 101.48 MB used, 101.48 MB peak
-[2021.01.23-19.02.16:074][  0]LogMemory: Process Virtual Memory: 92.55 MB used, 92.55 MB peak
-[2021.01.23-19.02.16:074][  0]LogMemory: Physical Memory: 10534.10 MB used,  22168.68 MB free, 32702.78 MB total
-[2021.01.23-19.02.16:074][  0]LogMemory: Virtual Memory: 4663.43 MB used,  22168.68 MB free, 134217728.00 MB total
-[2021.01.23-19.02.16:123][  0]LogInit: Using OS detected language (pl-PL).
-[2021.01.23-19.02.16:123][  0]LogInit: Using OS detected locale (pl-PL).
-[2021.01.23-19.02.16:125][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2021.01.23-19.02.16:127][  0]LogStreaming: Display: Took  0.004s to InitEngineTextLocalization.
-[2021.01.23-19.02.16:127][  0]LogInit: Setting process to per monitor DPI aware
-[2021.01.23-19.02.16:161][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.23-19.02.16:161][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.23-19.02.16:389][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.23-19.02.16:389][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.23-19.02.16:605][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2021.01.23-19.02.16:605][  0]LogD3D11RHI:       5967/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.01.23-19.02.16:608][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.23-19.02.16:609][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.23-19.02.16:609][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.23-19.02.16:618][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.23-19.02.16:618][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.23-19.02.16:618][  0]LogWindows: EnumDisplayDevices:
-[2021.01.23-19.02.16:619][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
-[2021.01.23-19.02.16:619][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.01.23-19.02.16:619][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.01.23-19.02.16:620][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2021.01.23-19.02.16:620][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.01.23-19.02.16:620][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2021.01.23-19.02.16:620][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
-[2021.01.23-19.02.16:620][  0]LogD3D11RHI:      Driver Date: 12-11-2020
-[2021.01.23-19.02.16:620][  0]LogRHI: Texture pool is 4176 MB (70% of 5967 MB)
-[2021.01.23-19.02.16:697][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.23-19.02.16:714][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.01.23-19.02.16:717][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
-[2021.01.23-19.02.16:718][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../UnrealProject/BallMaze/Intermediate/Shaders/WorkingDirectory/10512/).
-[2021.01.23-19.02.16:718][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ibahu/AppData/Local/Temp/UnrealShaderWorkingDir/0AF57D4047016A0169475393DAE6100A/'.
-[2021.01.23-19.02.17:041][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2021.01.23-19.02.17:061][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2021.01.23-19.02.17:080][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2021.01.23-19.02.17:099][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2021.01.23-19.02.17:119][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2021.01.23-19.02.17:139][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2021.01.23-19.02.17:159][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2021.01.23-19.02.17:179][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2021.01.23-19.02.17:189][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:306][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.01.23-19.02.17:308][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2021.01.23-19.02.17:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2021.01.23-19.02.17:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2021.01.23-19.02.17:411][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2021.01.23-19.02.17:411][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2021.01.23-19.02.17:427][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2021.01.23-19.02.17:444][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2021.01.23-19.02.17:461][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2021.01.23-19.02.17:479][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2021.01.23-19.02.17:491][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2021.01.23-19.02.17:492][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.23-19.02.17:590][  0]LogXGEController: Cleaning working directory: C:/Users/ibahu/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.01.23-19.02.17:590][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.23-19.02.17:590][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.23-19.02.17:590][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.23-19.02.18:692][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.23-19.02.18:781][  0]LogDerivedDataCache: Loaded boot cache 0.09s 87MB C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2021.01.23-19.02.18:781][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2021.01.23-19.02.18:781][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProject/BallMaze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.23-19.02.18:781][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.23-19.02.18:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProject/BallMaze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.23-19.02.18:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.23-19.02.18:801][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.23-19.02.18:814][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ibahu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.23-19.02.18:814][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.23-19.02.18:814][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.23-19.02.18:839][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.01.23-19.02.18:841][  0]LogSlate: Using FreeType 2.6.0
-[2021.01.23-19.02.18:842][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.23-19.02.18:931][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
-[2021.01.23-19.02.19:365][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.23-19.02.19:589][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2021.01.23-19.02.19:595][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2021.01.23-19.02.19:595][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.23-19.02.19:595][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.23-19.02.19:595][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2021.01.23-19.02.19:629][  0]LogNetVersion: BallMaze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 993963857)
-[2021.01.23-19.02.20:622][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.159610 seconds
-[2021.01.23-19.02.20:637][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2021.01.23-19.02.20:637][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2021.01.23-19.02.20:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.23-19.02.21:851][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.23-19.02.21:868][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.23-19.02.22:079][  0]SourceControl: Source control is disabled
-[2021.01.23-19.02.22:079][  0]SourceControl: Source control is disabled
-[2021.01.23-19.02.22:080][  0]SourceControl: Source control is disabled
-[2021.01.23-19.02.22:082][  0]SourceControl: Source control is disabled
-[2021.01.23-19.02.22:311][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.23-19.02.22:488][  0]LogOcInput: OculusInput pre-init called
-[2021.01.23-19.02.22:575][  0]LogEngine: Initializing Engine...
-[2021.01.23-19.02.22:576][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.23-19.02.22:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2021.01.23-19.02.22:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2021.01.23-19.02.22:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2021.01.23-19.02.22:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2021.01.23-19.02.22:909][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.23-19.02.22:935][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.01.23-19.02.22:990][  0]LogInit: XAudio2 using 'PHL 346P1C (2 — NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2021.01.23-19.02.23:035][  0]LogInit: FAudioDevice initialized.
-[2021.01.23-19.02.23:035][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.23-19.02.23:113][  0]LogDerivedDataCache: Saved boot cache 0.08s 87MB C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2021.01.23-19.02.23:115][  0]LogInit: Texture streaming: Enabled
-[2021.01.23-19.02.23:149][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.01.23-19.02.23:169][  0]LogInit: Transaction tracking system initialized
-[2021.01.23-19.02.23:209][  0]BlueprintLog: New page: Editor Load
-[2021.01.23-19.02.23:350][  0]LocalizationService: Localization service is disabled
-[2021.01.23-19.02.23:792][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.01.23-19.02.23:792][  0]LogCook: Display: Mobile HDR setting 1
-[2021.01.23-19.02.23:792][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2021.01.23-19.02.23:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2021.01.23-19.02.23:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2021.01.23-19.02.23:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2021.01.23-19.02.23:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2021.01.23-19.02.24:002][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/' took 0.02s
-[2021.01.23-19.02.24:002][  0]SourceControl: Source control is disabled
-[2021.01.23-19.02.24:002][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProject/BallMaze/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.23-19.02.24:003][  0]LightingResults: New page: Lighting Build
-[2021.01.23-19.02.24:007][  0]MapCheck: New page: Map Check
-[2021.01.23-19.02.24:007][  0]LightingResults: New page: Lighting Build
-[2021.01.23-19.02.24:568][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2021.01.23-19.02.24:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.23-19.02.24:599][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.23-19.02.24:707][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107,43ms to complete.
-[2021.01.23-19.02.24:707][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.705
-[2021.01.23-19.02.25:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.23-19.02.25:195][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.23-19.02.25:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.23-19.02.25:215][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.23-19.02.25:226][  0]LogCollectionManager: Loaded 0 collections in 0.003190 seconds
-[2021.01.23-19.02.25:271][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Saved/Collections/' took 0.01s
-[2021.01.23-19.02.25:271][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/Developers/ibahu/Collections/' took 0.01s
-[2021.01.23-19.02.25:271][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/Collections/' took 0.01s
-[2021.01.23-19.02.25:271][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2021.01.23-19.02.25:283][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2572 classes and 603 folders.
-[2021.01.23-19.02.25:294][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.01.23-19.02.25:360][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.01.23-19.02.25:369][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2021.01.23-19.02.25:398][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.02.25:428][  0]LogSlate: Window 'Tutorials' being destroyed
-[2021.01.23-19.02.25:464][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.01.23-19.02.25:464][  0]LogLoad: (Engine Initialization) Total time: 12.10 seconds
-[2021.01.23-19.02.25:464][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.23-19.02.25:500][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.23-19.02.25:504][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.01.23-19.02.25:505][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.01.23-19.02.25:511][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.01.23-19.02.25:655][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2021.01.23-19.02.25:674][  1]LogAssetRegistry: Asset discovery search completed in 6.7650 seconds
-[2021.01.23-19.02.25:676][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2021.01.23-19.02.25:676][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
-[2021.01.23-19.02.28:333][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.02.51:529][533]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.23-19.02.51:649][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MailLevel" FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.01.23-19.02.51:674][533]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/MailLevelFDCBE79A4526DE4EB96901BF93D574CE.tmp' to '../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap'
-[2021.01.23-19.02.51:678][533]LogFileHelpers: Saving map 'MailLevel' took 0.136
-[2021.01.23-19.02.52:412][615]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MailLevel.MailLevel
-[2021.01.23-19.02.52:431][615]Cmd: MAP LOAD FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.23-19.02.52:432][615]LightingResults: New page: Lighting Build
-[2021.01.23-19.02.52:432][615]LoadErrors: New page: Loading map: MailLevel.umap
-[2021.01.23-19.02.52:433][615]MapCheck: New page: Map Check
-[2021.01.23-19.02.52:433][615]LightingResults: New page: Lighting Build
-[2021.01.23-19.02.52:452][615]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.23-19.02.52:452][615]LogAIModule: Creating AISystem for world MailLevel
-[2021.01.23-19.02.52:488][615]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.23-19.02.52:594][615]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106,125ms to complete.
-[2021.01.23-19.02.52:596][615]LogFileHelpers: Loading map 'MailLevel' took 0.165
-[2021.01.23-19.02.57:359][ 36]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2021.01.23-19.02.57:440][ 37]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BallMaze
-[2021.01.23-19.02.57:441][ 37]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2021.01.23-19.02.57:441][ 37]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2021.01.23-19.02.57:441][ 37]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2021.01.23-19.02.57:441][ 37]LogTemp: BranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2021.01.23-19.02.57:448][ 37]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ibahu\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2021.01.23-19.03.17:486][948]LogSlate: Window 'Project Settings' being destroyed
-[2021.01.23-19.03.19:819][177]LogRenderer: Reallocating scene render targets to support 1152x796 Format 10 NumSamples 1 (Frame:2006).
-[2021.01.23-19.05.32:337][762]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2021.01.23-19.05.41:162][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.05.48:622][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.05.52:912][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.05.57:473][334]Cmd: EDCALLBACK SURFPROPS
-[2021.01.23-19.06.02:867][904]Cmd: TRANSACTION UNDO
-[2021.01.23-19.06.02:867][904]LogEditorTransaction: Undo Scale Actors
-[2021.01.23-19.06.05:367][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.06.07:149][318]Cmd: EDCALLBACK SURFPROPS
-[2021.01.23-19.06.08:651][480]Cmd: EDCALLBACK SURFPROPS
-[2021.01.23-19.06.09:693][589]Cmd: EDCALLBACK SURFPROPS
-[2021.01.23-19.06.14:491][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.07.12:227][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.07.28:651][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.07.31:651][724]Cmd: ACTOR SELECT ALL
-[2021.01.23-19.07.32:980][857]Cmd: EDIT COPY
-[2021.01.23-19.07.33:518][912]Cmd: EDIT PASTE
-[2021.01.23-19.07.42:964][899]Cmd: EDIT COPY
-[2021.01.23-19.07.43:338][925]Cmd: EDIT PASTE
-[2021.01.23-19.07.55:176][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.08.26:754][565]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.08.28:383][739]LogEditorViewport: Clicking Background
-[2021.01.23-19.10.15:713][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.10.49:389][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.11.16:060][445]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2021.01.23-19.11.16:155][446]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BallMaze
-[2021.01.23-19.11.16:155][446]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2021.01.23-19.11.16:155][446]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2021.01.23-19.11.16:155][446]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2021.01.23-19.11.16:155][446]LogTemp: BranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2021.01.23-19.11.16:155][446]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ibahu\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2021.01.23-19.12.02:498][479]LogSlate: Window 'Project Settings' being destroyed
-[2021.01.23-19.12.02:504][479]LogSlate: Window 'Project Settings' being destroyed
-[2021.01.23-19.12.52:464][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MailLevel" FILE="../../../../../../UnrealProject/BallMaze/Saved/Autosaves/Game/Levels/MailLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2021.01.23-19.12.52:488][517]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/MailLevel_Auto10FE407914A837118CEE6899704C2209E.tmp' to '../../../../../../UnrealProject/BallMaze/Saved/Autosaves/Game/Levels/MailLevel_Auto1.umap'
-[2021.01.23-19.12.52:492][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MailLevel' took 0.047
-[2021.01.23-19.12.52:492][517]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.047
-[2021.01.23-19.13.03:064][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.13.57:538][ 99]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2021.01.23-19.13.58:150][164]Cmd: DELETE
-[2021.01.23-19.13.58:150][164]Cmd: ACTOR DELETE
-[2021.01.23-19.13.58:153][164]LogEditorActor: Deleted Actor: DirectionalLight
-[2021.01.23-19.13.58:175][164]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2021.01.23-19.14.00:715][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.14.03:252][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.14.07:593][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.14.21:726][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.14.57:073][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.14.58:837][880]LogEditorActor: Deleted Actor: PointLight
-[2021.01.23-19.14.58:856][880]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2021.01.23-19.15.00:802][ 97]LogEditorActor: Deleted Actor: SkyLight
-[2021.01.23-19.15.00:821][ 97]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2021.01.23-19.15.02:979][345]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2021.01.23-19.15.12:104][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.15.33:296][653]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2021.01.23-19.15.38:093][172]LogEditorViewport: Clicking Background
-[2021.01.23-19.15.43:117][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.15.47:851][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.15.57:183][153]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.15.59:994][442]Cmd: ACTOR SELECT ALL
-[2021.01.23-19.16.02:251][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.01.23-19.16.07:571][246]LogEditorViewport: Clicking Background
-[2021.01.23-19.16.12:131][743]Cmd: ACTOR SELECT ALL
-[2021.01.23-19.16.13:250][864]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.16.16:699][219]LogEditorViewport: Clicking Background
-[2021.01.23-19.16.21:615][703]LogEditorViewport: Clicking Background
-[2021.01.23-19.16.21:870][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.01.23-19.16.21:881][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MailLevel" FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.01.23-19.16.21:925][730]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/MailLevel3B5FDEFF466AF720CB96308DEC03EB76.tmp' to '../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap'
+[2021.01.23-20.16.13:700][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-20.16.13:700][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.23-20.16.13:711][  0]LogHAL: Display: Platform has ~ 32 GB [34291347456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.23-20.16.13:711][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2021.01.23-20.16.13:711][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.23-20.16.13:711][  0]LogInit: Computer: DESKTOP-F3K469H
+[2021.01.23-20.16.13:712][  0]LogInit: User: ibahu
+[2021.01.23-20.16.13:712][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.23-20.16.13:712][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.23-20.16.13:712][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.01.23-20.16.13:712][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.23-20.16.13:712][  0]LogMemory: Process Physical Memory: 101.78 MB used, 101.78 MB peak
+[2021.01.23-20.16.13:712][  0]LogMemory: Process Virtual Memory: 92.57 MB used, 92.57 MB peak
+[2021.01.23-20.16.13:712][  0]LogMemory: Physical Memory: 8697.26 MB used,  24005.52 MB free, 32702.78 MB total
+[2021.01.23-20.16.13:712][  0]LogMemory: Virtual Memory: 4663.43 MB used,  24005.52 MB free, 134217728.00 MB total
+[2021.01.23-20.16.13:771][  0]LogInit: Using OS detected language (pl-PL).
+[2021.01.23-20.16.13:771][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.01.23-20.16.13:773][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2021.01.23-20.16.13:775][  0]LogStreaming: Display: Took  0.004s to InitEngineTextLocalization.
+[2021.01.23-20.16.13:775][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.23-20.16.13:811][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.23-20.16.13:811][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.23-20.16.14:064][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-20.16.14:064][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.23-20.16.14:192][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2021.01.23-20.16.14:192][  0]LogD3D11RHI:       5967/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.23-20.16.14:195][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.23-20.16.14:195][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.23-20.16.14:195][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.23-20.16.14:203][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.23-20.16.14:204][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.23-20.16.14:204][  0]LogWindows: EnumDisplayDevices:
+[2021.01.23-20.16.14:204][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2021.01.23-20.16.14:204][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.01.23-20.16.14:204][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.01.23-20.16.14:205][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.01.23-20.16.14:205][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.23-20.16.14:205][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2021.01.23-20.16.14:205][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.01.23-20.16.14:205][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.01.23-20.16.14:205][  0]LogRHI: Texture pool is 4176 MB (70% of 5967 MB)
+[2021.01.23-20.16.14:287][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.23-20.16.14:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.23-20.16.14:310][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2021.01.23-20.16.14:310][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../UnrealProject/BallMaze/Intermediate/Shaders/WorkingDirectory/1920/).
+[2021.01.23-20.16.14:310][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ibahu/AppData/Local/Temp/UnrealShaderWorkingDir/A2C48208415C18AE60D6D0B684434D34/'.
+[2021.01.23-20.16.14:624][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.23-20.16.14:645][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2021.01.23-20.16.14:666][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.23-20.16.14:686][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2021.01.23-20.16.14:707][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2021.01.23-20.16.14:728][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.23-20.16.14:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.23-20.16.14:769][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.23-20.16.14:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:893][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.01.23-20.16.14:895][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2021.01.23-20.16.14:967][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2021.01.23-20.16.14:967][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2021.01.23-20.16.15:001][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2021.01.23-20.16.15:001][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2021.01.23-20.16.15:019][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.23-20.16.15:037][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.23-20.16.15:054][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.23-20.16.15:072][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2021.01.23-20.16.15:085][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2021.01.23-20.16.15:085][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.23-20.16.15:186][  0]LogXGEController: Cleaning working directory: C:/Users/ibahu/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.23-20.16.15:186][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.23-20.16.15:186][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.23-20.16.15:186][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.23-20.16.16:282][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.23-20.16.16:362][  0]LogDerivedDataCache: Loaded boot cache 0.08s 87MB C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2021.01.23-20.16.16:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2021.01.23-20.16.16:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UnrealProject/BallMaze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.23-20.16.16:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.23-20.16.16:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UnrealProject/BallMaze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.23-20.16.16:363][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.23-20.16.16:382][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.23-20.16.16:395][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ibahu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.23-20.16.16:395][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.23-20.16.16:395][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.23-20.16.16:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.23-20.16.16:420][  0]LogSlate: Using FreeType 2.6.0
+[2021.01.23-20.16.16:421][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.23-20.16.16:510][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2021.01.23-20.16.16:932][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.23-20.16.17:144][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.23-20.16.17:151][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.23-20.16.17:151][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.23-20.16.17:151][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.23-20.16.17:151][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2021.01.23-20.16.17:192][  0]LogNetVersion: BallMaze 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 993963857)
+[2021.01.23-20.16.18:218][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.149573 seconds
+[2021.01.23-20.16.18:230][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2021.01.23-20.16.18:230][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2021.01.23-20.16.18:230][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.23-20.16.19:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.23-20.16.19:391][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.23-20.16.19:517][  0]SourceControl: Source control is disabled
+[2021.01.23-20.16.19:517][  0]SourceControl: Source control is disabled
+[2021.01.23-20.16.19:518][  0]SourceControl: Source control is disabled
+[2021.01.23-20.16.19:519][  0]SourceControl: Source control is disabled
+[2021.01.23-20.16.19:672][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.23-20.16.19:776][  0]LogOcInput: OculusInput pre-init called
+[2021.01.23-20.16.19:827][  0]LogEngine: Initializing Engine...
+[2021.01.23-20.16.19:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.23-20.16.19:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2021.01.23-20.16.19:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.23-20.16.19:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2021.01.23-20.16.19:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.23-20.16.19:965][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.23-20.16.19:979][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.23-20.16.20:013][  0]LogInit: XAudio2 using 'PHL 346P1C (2 — NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-20.16.20:040][  0]LogInit: FAudioDevice initialized.
+[2021.01.23-20.16.20:040][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.23-20.16.20:081][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/ibahu/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2021.01.23-20.16.20:083][  0]LogInit: Texture streaming: Enabled
+[2021.01.23-20.16.20:099][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.23-20.16.20:110][  0]LogInit: Transaction tracking system initialized
+[2021.01.23-20.16.20:131][  0]BlueprintLog: New page: Editor Load
+[2021.01.23-20.16.20:202][  0]LocalizationService: Localization service is disabled
+[2021.01.23-20.16.20:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.23-20.16.20:403][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.23-20.16.20:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2021.01.23-20.16.20:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2021.01.23-20.16.20:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.23-20.16.20:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2021.01.23-20.16.20:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.23-20.16.20:504][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/' took 0.01s
+[2021.01.23-20.16.20:504][  0]SourceControl: Source control is disabled
+[2021.01.23-20.16.20:504][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.23-20.16.20:504][  0]LightingResults: New page: Lighting Build
+[2021.01.23-20.16.20:507][  0]MapCheck: New page: Map Check
+[2021.01.23-20.16.20:507][  0]LightingResults: New page: Lighting Build
+[2021.01.23-20.16.20:677][  0]LogAIModule: Creating AISystem for world MailLevel
+[2021.01.23-20.16.20:682][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.23-20.16.20:702][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.23-20.16.20:789][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86,231ms to complete.
+[2021.01.23-20.16.20:789][  0]LogFileHelpers: Loading map 'MailLevel' took 0.285
+[2021.01.23-20.16.20:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.16.20:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.16.20:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.16.20:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-20.16.20:942][  0]LogCollectionManager: Loaded 0 collections in 0.003186 seconds
+[2021.01.23-20.16.20:984][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Saved/Collections/' took 0.01s
+[2021.01.23-20.16.20:985][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/Developers/ibahu/Collections/' took 0.01s
+[2021.01.23-20.16.20:985][  0]LogFileCache: Scanning file cache for directory 'C:/UnrealProject/BallMaze/Content/Collections/' took 0.01s
+[2021.01.23-20.16.20:985][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2021.01.23-20.16.20:996][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2572 classes and 603 folders.
+[2021.01.23-20.16.21:007][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.16.21:083][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.16.21:091][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.01.23-20.16.21:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.23-20.16.21:197][  0]LogLoad: (Engine Initialization) Total time: 10.38 seconds
+[2021.01.23-20.16.21:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.23-20.16.21:227][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.23-20.16.21:229][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.23-20.16.21:231][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.23-20.16.21:236][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.23-20.16.21:395][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2021.01.23-20.16.21:465][  1]LogAssetRegistry: Asset discovery search completed in 4.9783 seconds
+[2021.01.23-20.16.21:467][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2021.01.23-20.16.21:467][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2021.01.23-20.16.22:228][ 71]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.23-20.16.46:603][763]LogRenderer: Reallocating scene render targets to support 1076x796 Format 10 NumSamples 1 (Frame:2764).
+[2021.01.23-20.17.02:663][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.23-20.17.02:798][843]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.01.23-20.17.03:636][843]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2021.01.23-20.17.04:605][843]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2021.01.23-20.17.05:001][843]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.23-20.17.09:813][176]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2021.01.23-20.19.29:115][721]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.23-20.19.29:201][722]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BallMaze
+[2021.01.23-20.19.29:201][722]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2021.01.23-20.19.29:201][722]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2021.01.23-20.19.29:201][722]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2021.01.23-20.19.29:201][722]LogTemp: BranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-F3K469H/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2021.01.23-20.19.29:201][722]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ibahu\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2021.01.23-20.23.11:875][255]LogRenderer: Reallocating scene render targets to support 1080x1240 Format 10 NumSamples 1 (Frame:1).
+[2021.01.23-20.23.11:963][258]LogRenderer: Reallocating scene render targets to support 1144x1240 Format 10 NumSamples 1 (Frame:3880).
+[2021.01.23-20.23.12:693][332]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.23-20.23.46:070][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../../UnrealProject/BallMaze/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2021.01.23-20.23.46:097][925]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/BP_PlayerPawnC673040B454C5B626B8DC99CBD86269F.tmp' to '../../../../../../UnrealProject/BallMaze/Content/Blueprints/BP_PlayerPawn.uasset'
+[2021.01.23-20.23.47:711][108]BlueprintLog: New page: Compile BP_PlayerPawn
+[2021.01.23-20.24.01:115][609]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.23-20.24.30:118][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MailLevel" FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.23-20.24.30:186][178]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/MailLevel045780944749F355E1FEEEA0E84BCC0F.tmp' to '../../../../../../UnrealProject/BallMaze/Content/Levels/MailLevel.umap'
