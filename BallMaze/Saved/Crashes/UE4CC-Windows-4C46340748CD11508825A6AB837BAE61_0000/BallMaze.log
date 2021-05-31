@@ -1088,16 +1088,3 @@ LogInit: Object subsystem initialized
 [2021.05.31-17.52.16:251][490]LogOutputDevice: Error: [Callstack] 0x00007ffd3fc42651 ntdll.dll!UnknownFunction []
 [2021.05.31-17.52.16:251][490]LogOutputDevice: Error: 
 [2021.05.31-17.52.16:253][490]LogStats:                SubmitErrorReport -  0.000 s
-[2021.05.31-17.52.16:769][490]LogStats:                    SendNewReport -  0.516 s
-[2021.05.31-17.52.16:769][490]LogStats:             FDebug::EnsureFailed -  0.525 s
-[2021.05.31-17.52.18:234][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.05.31-17.52.39:459][185]BlueprintLog: New page: Compile Level2
-[2021.05.31-17.52.39:463][185]LogBlueprint: Error: [Compiler PersistentLevel.Level2] The type of  Object  is undetermined.  Connect something to  Cast To BP_PlayerPawn  to imply a specific type.
-[2021.05.31-17.52.39:463][185]LogBlueprint: Error: [Compiler PersistentLevel.Level2] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
-[2021.05.31-17.52.39:582][185]LogBlueprint: Warning: [Compiler PersistentLevel.Level2] [4819,21] Compile of PersistentLevel.Level2 failed. 2 Fatal Issue(s) 0 Warning(s) [in 123 ms] (/Game/Levels/Level2.Level2:PersistentLevel.Level2)
-[2021.05.31-17.53.03:389][ 38]BlueprintLog: New page: Compile Level2
-[2021.05.31-17.53.04:084][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level2" FILE="../../../../../../UnrealProject/BallMaze/Content/Levels/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.05.31-17.53.04:284][ 95]LogSavePackage: Moving '../../../../../../UnrealProject/BallMaze/Saved/Level213E54E3F4BC18B9361686CAC8883D52D.tmp' to '../../../../../../UnrealProject/BallMaze/Content/Levels/Level2.umap'
-[2021.05.31-17.53.04:302][ 95]LogFileHelpers: Saving map 'Level2' took 0.299
-[2021.05.31-17.53.06:659][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.05.31-17.53.07:628][490]LogSlate: Window 'BP_PlayerPawn' being destroyed
